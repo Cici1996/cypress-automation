@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cypress": "^12.13.0"
+  },
+  "scripts": {
+    "open": "cypress open",
+    "run:all": "cypress run --spec=cypress/e2e/specs/*.cy.{js,jsx,ts,tsx}",
+    "run:allcloud": "cypress run --record --key 99c0af04-5c6f-470b-8afd-b36f32cdb3c5"
+  }
+}
