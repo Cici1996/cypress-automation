@@ -7,7 +7,7 @@
     "open": "cypress open",
     "start": "my-server -p 3030",
     "test": "start-server-and-test start http://localhost:3030 run:all",
-    "run:all": "cypress run --spec=cypress/e2e/specs/*.cy.{js,jsx,ts,tsx}",
+    "run:all": "cypress run",
     "run:allcloud": "cypress run --record --key 99c0af04-5c6f-470b-8afd-b36f32cdb3c5"
   }
 }
